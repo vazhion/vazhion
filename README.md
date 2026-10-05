@@ -37,15 +37,15 @@ Local-first workstation for DevOps, SRE, and platform engineers.
 
 <a href="https://apps.microsoft.com/detail/vazhion"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="48"></a>
 &nbsp;
-<a href="https://github.com/vazhion/vazhion/releases/latest">Windows x64 zip (unsigned)</a>
+<a href="https://github.com/vazhion/vazhion/releases/latest">Windows x64 MSI (unsigned)</a>
 
-The Windows zip is unsigned. SmartScreen can warn the first time you open it.
+The Windows MSI is unsigned. SmartScreen can warn the first time you open it.
 
 Open [the latest release](https://github.com/vazhion/vazhion/releases/latest) and download the file named below. Check `SHA256SUMS.txt` on that release before you run a download.
 
 | Platform | Package | File |
 | --- | --- | --- |
-| Windows | [Portable zip, x64, unsigned](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Windows-x64-<version>.zip` |
+| Windows | [MSI, x64, unsigned](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Windows-x64-<version>.msi` |
 | Linux | [AppImage](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Linux-x64-<version>.AppImage` |
 | Linux | [Debian / Ubuntu .deb](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-Linux.deb` |
 | Linux | [Fedora / RHEL .rpm](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-Linux.rpm` |
@@ -59,7 +59,7 @@ Open [the latest release](https://github.com/vazhion/vazhion/releases/latest) an
 
 ## Install
 
-Windows zip: extract the archive and run `vazhion.exe`.
+Windows: run `vazhion-Windows-x64-<version>.msi`.
 
 Linux AppImage:
 
