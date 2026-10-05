@@ -45,8 +45,8 @@ Prefer the signed Microsoft Store build on Windows. Files on [the latest release
 | Windows | Microsoft Store (signed) | Store install. The `apps.microsoft.com` product URL was not available in this workspace, so this row has no link until that URL is added. |
 | Windows | [Portable zip, x64, unsigned](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Windows-x64-<version>.zip` |
 | Linux | [AppImage](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Linux-x64-<version>.AppImage` |
-| Linux | [Debian / Ubuntu .deb](https://github.com/vazhion/vazhion/releases/latest) | `vazhion_<version>_amd64.deb` |
-| Linux | [Fedora / RHEL .rpm](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-1.x86_64.rpm` |
+| Linux | [Debian / Ubuntu .deb](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-Linux.deb` |
+| Linux | [Fedora / RHEL .rpm](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-Linux.rpm` |
 | Linux | [Tarball](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Linux-x64-<version>.tar.gz` |
 | macOS | Not in this release | — |
 
@@ -70,13 +70,13 @@ chmod +x vazhion-Linux-x64-*.AppImage
 Debian or Ubuntu:
 
 ```sh
-sudo apt install ./vazhion_*_amd64.deb
+sudo apt install ./vazhion-*-Linux.deb
 ```
 
 Fedora or RHEL:
 
 ```sh
-sudo rpm -i vazhion-*.x86_64.rpm
+sudo rpm -i vazhion-*-Linux.rpm
 ```
 
 ## Verify
