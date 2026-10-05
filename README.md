@@ -4,12 +4,12 @@
 [![Downloads](https://img.shields.io/github/downloads/vazhion/vazhion/total)](https://github.com/vazhion/vazhion/releases)
 
 <p align="center">
-  <img src="docs/logo.png" alt="Vazhion" width="96">
+  <img src="docs/logo.svg" alt="Vazhion" width="96">
 </p>
 
-Desktop app for SSH, port forwarding, terminals, Docker, and Kubernetes.
+SSH, tunnels, Docker, and Kubernetes in one desktop app.
 
-This repository is for downloads and issues. It does not contain application source, and it does not accept source pull requests.
+Local-first workstation for DevOps, SRE, and platform engineers.
 
 ## Screenshots
 
@@ -35,14 +35,16 @@ This repository is for downloads and issues. It does not contain application sou
 
 ## Download
 
-Prefer the signed Microsoft Store build on Windows. Files on [the latest release](https://github.com/vazhion/vazhion/releases/latest) are the unsigned build from the desktop app. Open that page and download the file named in the table. Those names include the version, so this page stays valid for the next release.
+<a href="https://apps.microsoft.com/detail/vazhion"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="48"></a>
+&nbsp;
+<a href="https://github.com/vazhion/vazhion/releases/latest">Windows x64 zip (unsigned)</a>
 
-> [!CAUTION]
-> The Windows zip is unsigned. SmartScreen can warn the first time you open it. Choose **More info**, then **Run anyway**. Check `SHA256SUMS.txt` on the same release before you run a download.
+The Windows zip is unsigned. SmartScreen can warn the first time you open it.
+
+Open [the latest release](https://github.com/vazhion/vazhion/releases/latest) and download the file named below. Check `SHA256SUMS.txt` on that release before you run a download.
 
 | Platform | Package | File |
 | --- | --- | --- |
-| Windows | Microsoft Store (signed) | Store install. The `apps.microsoft.com` product URL was not available in this workspace, so this row has no link until that URL is added. |
 | Windows | [Portable zip, x64, unsigned](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Windows-x64-<version>.zip` |
 | Linux | [AppImage](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-Linux-x64-<version>.AppImage` |
 | Linux | [Debian / Ubuntu .deb](https://github.com/vazhion/vazhion/releases/latest) | `vazhion-<version>-Linux.deb` |
@@ -54,7 +56,6 @@ Prefer the signed Microsoft Store build on Windows. Files on [the latest release
 
 - Windows 10 version 1809 or later, 64-bit
 - Linux x64
-- macOS is not shipped in this release
 
 ## Install
 
@@ -78,24 +79,6 @@ Fedora or RHEL:
 ```sh
 sudo rpm -i vazhion-*-Linux.rpm
 ```
-
-## Verify
-
-Each release includes `SHA256SUMS.txt`.
-
-Linux and macOS:
-
-```sh
-sha256sum -c SHA256SUMS.txt
-```
-
-Windows PowerShell:
-
-```powershell
-Get-FileHash .\vazhion-Windows-x64-*.zip -Algorithm SHA256
-```
-
-Compare the hash with the line for that file in `SHA256SUMS.txt`.
 
 ## Issues
 
