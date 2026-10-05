@@ -1,0 +1,90 @@
+Vazhion End User License Agreement (EULA)
+=========================================
+
+Copyright (c) 2025-2026 Vazhion Developer. All rights reserved.
+
+IMPORTANT: PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING
+THE SOFTWARE.
+
+1. GRANT OF LICENSE
+
+   Subject to the terms of this Agreement, you are granted a limited,
+   non-exclusive, non-transferable license to install and use the Software
+   (the "Free Tier") for personal or commercial purposes.
+
+   Premium features require a valid paid license or subscription
+   ("Premium License") obtained through Vazhion account services. Free Tier
+   use does not include Premium features unless separately licensed.
+
+2. ACCOUNTS AND SUBSCRIPTIONS
+
+   Some features require a Vazhion account. Paid subscriptions are sold by
+   Dodo Payments as Merchant of Record. Vazhion grants the software
+   entitlement associated with an active subscription. Entitlements may be
+   verified online and cached offline for a limited period.
+
+3. RESTRICTIONS
+
+   You may not:
+   (a) reverse engineer, decompile, or disassemble the Software, except to the
+       extent expressly permitted by applicable law;
+   (b) redistribute, sublicense, rent, lease, or sell the Software as a
+       standalone product or as part of a competing product;
+   (c) remove or alter any proprietary notices, labels, or marks;
+   (d) use the Software in violation of applicable law;
+   (e) share account credentials or circumvent entitlement checks.
+
+4. OWNERSHIP
+
+   The Software is licensed, not sold. Title and intellectual property rights
+   remain with the copyright holder, except for third-party components which
+   remain under their respective licenses (see THIRD_PARTY_NOTICES.md).
+
+5. THIRD-PARTY COMPONENTS
+
+   The Software includes open-source and other third-party components. Those
+   components are governed by their own licenses, which are listed in
+   THIRD_PARTY_NOTICES.md. Nothing in this EULA limits your rights under those
+   third-party licenses.
+
+6. DISCLAIMER OF WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
+   CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
+   OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR
+   THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+   Consumer statutory rights, where they cannot be excluded by law (including
+   in the EEA and UK), are not waived by this clause. Have local counsel review
+   this agreement before offering the Software for sale.
+
+8. PRIVACY AND AI FEATURES
+
+   Account and local processing are described in PRIVACY.md and at
+   https://vazhion.com/legal/privacy (when published).
+
+   If you enable AI features, prompts, file excerpts, and command output may be
+   sent to a third-party model provider you configure. Those providers are
+   independent processors. AI features stay disabled until you opt in.
+
+9. EXPORT
+
+   The Software includes cryptography (OpenSSL and SSH libraries) that is
+   generally available to the public. You are responsible for complying with
+   export and sanctions laws that apply to you. Do not use the Software to
+   access systems you are not authorized to access.
+
+10. TERMINATION
+
+   This license terminates automatically if you fail to comply with its terms
+   or when a required Premium License expires or is revoked. Upon termination
+   you must cease use of Premium features and, if directed, destroy copies of
+   the Software in your possession.
+
+By installing or using the Software, you agree to be bound by this Agreement.
