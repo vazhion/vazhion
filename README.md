@@ -35,7 +35,7 @@ Local-first workstation for DevOps, SRE, and platform engineers.
 
 ## Download
 
-<a href="https://apps.microsoft.com/detail/vazhion"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="48"></a>
+<a href="https://apps.microsoft.com/detail/9NJCP1VGM3L2"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="48"></a>
 &nbsp;
 <a href="https://github.com/vazhion/vazhion/releases/latest">Windows x64 MSI (unsigned)</a>
 
